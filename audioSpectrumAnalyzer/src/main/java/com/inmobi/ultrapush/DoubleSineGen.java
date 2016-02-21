@@ -15,7 +15,7 @@
  * @author Stephen Uhler
  */
 
-package github.bewantbe.audio_analyzer_for_android;
+package com.inmobi.ultrapush;
 
 /**
  * Recursive sine wave generator

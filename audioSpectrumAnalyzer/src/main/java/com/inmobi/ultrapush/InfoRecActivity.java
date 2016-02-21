@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package github.bewantbe.audio_analyzer_for_android;
+package com.inmobi.ultrapush;
 
 import java.util.ArrayList;
 
@@ -29,6 +29,8 @@ import android.support.v4.app.NavUtils;
 import android.text.method.ScrollingMovementMethod;
 import android.annotation.TargetApi;
 import android.os.Build;
+
+import github.bewantbe.audio_analyzer_for_android.R;
 
 public class InfoRecActivity extends Activity {
 

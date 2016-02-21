@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package github.bewantbe.audio_analyzer_for_android;
+package com.inmobi.ultrapush;
 
 import android.os.SystemClock;
 import android.util.Log;

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package github.bewantbe.audio_analyzer_for_android;
+package com.inmobi.ultrapush;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -19,7 +19,7 @@
  * Add some naive auto refresh rate control logic.
  */
 
-package github.bewantbe.audio_analyzer_for_android;
+package com.inmobi.ultrapush;
 
 import java.util.Arrays;
 
@@ -37,6 +37,8 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+
+import github.bewantbe.audio_analyzer_for_android.R;
 
 /**
  * Custom view to draw the FFT graph

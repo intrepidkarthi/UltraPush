@@ -15,7 +15,7 @@
  * @author Stephen Uhler
  */
 
-package github.bewantbe.audio_analyzer_for_android;
+package com.inmobi.ultrapush;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -29,6 +29,8 @@ import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 import android.view.animation.RotateAnimation;
 import android.widget.TextView;
+
+import github.bewantbe.audio_analyzer_for_android.R;
 
 /**
  * Text view that toggles through a set of values.

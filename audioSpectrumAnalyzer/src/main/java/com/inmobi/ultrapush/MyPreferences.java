@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package github.bewantbe.audio_analyzer_for_android;
+package com.inmobi.ultrapush;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -21,6 +21,8 @@ import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.util.Log;
+
+import github.bewantbe.audio_analyzer_for_android.R;
 
 // I'm using an old cell phone -- API level 9 (android 2.3.6)
 // http://developer.android.com/guide/topics/ui/settings.html
