@@ -15,22 +15,20 @@
 
 package com.inmobi.ultrapush;
 
-import java.util.ArrayList;
-
+import android.annotation.TargetApi;
+import android.app.Activity;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
+import android.os.Build;
 import android.os.Bundle;
-import android.app.Activity;
+import android.support.v4.app.NavUtils;
+import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
-import android.support.v4.app.NavUtils;
-import android.text.method.ScrollingMovementMethod;
-import android.annotation.TargetApi;
-import android.os.Build;
 
-import github.bewantbe.audio_analyzer_for_android.R;
+import java.util.ArrayList;
 
 public class InfoRecActivity extends Activity {
 

@@ -21,8 +21,6 @@
 
 package com.inmobi.ultrapush;
 
-import java.util.Arrays;
-
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -38,7 +36,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import github.bewantbe.audio_analyzer_for_android.R;
+import java.util.Arrays;
+
 
 /**
  * Custom view to draw the FFT graph

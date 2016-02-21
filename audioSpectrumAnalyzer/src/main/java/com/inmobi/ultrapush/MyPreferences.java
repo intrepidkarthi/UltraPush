@@ -22,8 +22,6 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.util.Log;
 
-import github.bewantbe.audio_analyzer_for_android.R;
-
 // I'm using an old cell phone -- API level 9 (android 2.3.6)
 // http://developer.android.com/guide/topics/ui/settings.html
 @SuppressWarnings("deprecation")

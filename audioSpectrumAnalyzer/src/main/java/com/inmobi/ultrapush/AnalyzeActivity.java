@@ -68,8 +68,6 @@ import org.apache.commons.collections4.queue.CircularFifoQueue;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import github.bewantbe.audio_analyzer_for_android.R;
-
 /**
  * Audio "FFT" analyzer.
  *
@@ -537,7 +535,7 @@ public class AnalyzeActivity extends Activity
     void updatePreferenceSaved() {
         // load preferences for buttons
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
-        sampleRate = sharedPref.getInt("button_sample_rate", 8000);
+        sampleRate = sharedPref.getInt("button_sample_rate", 48000);
         fftLen = sharedPref.getInt("button_fftlen", 1024);
         nFFTAverage = sharedPref.getInt("button_average", 1);
         isAWeighting = sharedPref.getBoolean("dbA", false);
