@@ -1466,8 +1466,9 @@ public class AnalyzeActivity extends Activity
         } else if (Math.abs((16500 - currentFrequency)) < 20) {
             Log.e("amlan", "<<<<<<16.5K>>>>>>");
             PackageManager pm = AnalyzeActivity.this.getPackageManager();
-            Intent launchIntent = pm.getLaunchIntentForPackage(" in.amazon.mShop.android.shopping");
+            Intent launchIntent = pm.getLaunchIntentForPackage("com.alibaba.aliexpresshd");
             AnalyzeActivity.this.startActivity(launchIntent);
+
         } else if (Math.abs((17000 - currentFrequency)) < 20) {
             Log.e("amlan", "<<<<<<17K>>>>>>");
             PackageManager pm = AnalyzeActivity.this.getPackageManager();
@@ -1486,7 +1487,7 @@ public class AnalyzeActivity extends Activity
         } else if (Math.abs((18500 - currentFrequency)) < 20) {
             Log.e("amlan", "<<<<<<18.5K>>>>>>");
             PackageManager pm = AnalyzeActivity.this.getPackageManager();
-            Intent launchIntent = pm.getLaunchIntentForPackage("com.alibaba.aliexpresshd");
+            Intent launchIntent = pm.getLaunchIntentForPackage("in.amazon.mShop.android.shopping");
             AnalyzeActivity.this.startActivity(launchIntent);
         } else if (Math.abs((19000 - currentFrequency)) < 20) {
             Log.e("amlan", "<<<<<<19K>>>>>>");
